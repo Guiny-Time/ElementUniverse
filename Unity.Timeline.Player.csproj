@@ -12,7 +12,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{d6df8f8d-107b-7e1e-53e7-5a4da7ab5aa4}</ProjectGuid>
+    <ProjectGuid>{038ad8d5-5f98-637b-c1d3-fc2fa6612e25}</ProjectGuid>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -74,9 +74,9 @@
      <Compile Include="Library\PackageCache\com.unity.timeline@1.4.8\Runtime\Evaluation\RuntimeClip.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@1.4.8\Runtime\Scripting\PlayableTrack.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@1.4.8\Runtime\Animation\ICurvesOwner.cs" />
-     <Compile Include="Library\PackageCache\com.unity.timeline@1.4.8\Runtime\AssetUpgrade\TrackUpgrade.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@1.4.8\Runtime\Audio\AudioClipProperties.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@1.4.8\Runtime\Playables\BasicScriptPlayable.cs" />
+     <Compile Include="Library\PackageCache\com.unity.timeline@1.4.8\Runtime\AssetUpgrade\TrackUpgrade.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@1.4.8\Runtime\Animation\AnimationTrack.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@1.4.8\Runtime\Extensions\TrackExtensions.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@1.4.8\Runtime\Audio\AudioPlayableAsset.cs" />
@@ -97,9 +97,9 @@
      <Compile Include="Library\PackageCache\com.unity.timeline@1.4.8\Runtime\Events\Marker.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@1.4.8\Runtime\AssetUpgrade\AnimationTrackUpgrade.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@1.4.8\Runtime\DiscreteTime.cs" />
+     <Compile Include="Library\PackageCache\com.unity.timeline@1.4.8\Runtime\Playables\TimeNotificationBehaviour.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@1.4.8\Runtime\Attributes\TrackColorAttribute.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@1.4.8\Runtime\AssetUpgrade\TimelineUpgrade.cs" />
-     <Compile Include="Library\PackageCache\com.unity.timeline@1.4.8\Runtime\Playables\TimeNotificationBehaviour.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@1.4.8\Runtime\AssetUpgrade\ClipUpgrade.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@1.4.8\Runtime\Playables\ActivationControlPlayable.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@1.4.8\Runtime\Evaluation\ScheduleRuntimeClip.cs" />
@@ -317,7 +317,7 @@
      <HintPath>D:\UnityEditor\2020.3.40f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.XRModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.UI">
-     <HintPath>F:\work\Unity\Element Universe\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+     <HintPath>F:\work\Unity\ElementalUniverse\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
      </Reference>
      <Reference Include="mscorlib">
      <HintPath>D:\UnityEditor\2020.3.40f1c1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\mscorlib.dll</HintPath>
@@ -670,7 +670,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UnityEngine.UI.Player.csproj">
-      <Project>{e8010700-97bb-835d-be9b-6c4a7d273a37}</Project>
+      <Project>{19bc3df2-4b50-a2a0-3583-939d0958278a}</Project>
       <Name>UnityEngine.UI.Player</Name>
     </ProjectReference>
   </ItemGroup>

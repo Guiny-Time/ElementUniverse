@@ -12,7 +12,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{27ea298e-a153-c606-bc7c-4abbd18ffc42}</ProjectGuid>
+    <ProjectGuid>{c33653cc-2ca4-bbfa-4aa8-4aa2348d5447}</ProjectGuid>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -78,8 +78,8 @@
      <Compile Include="Library\PackageCache\com.unity.ide.visualstudio@2.0.16\Editor\Messaging\Message.cs" />
      <Compile Include="Library\PackageCache\com.unity.ide.visualstudio@2.0.16\Editor\AsyncOperation.cs" />
      <Compile Include="Library\PackageCache\com.unity.ide.visualstudio@2.0.16\Editor\Discovery.cs" />
-     <Compile Include="Library\PackageCache\com.unity.ide.visualstudio@2.0.16\Editor\Testing\TestAdaptor.cs" />
      <Compile Include="Library\PackageCache\com.unity.ide.visualstudio@2.0.16\Editor\Testing\TestRunnerCallbacks.cs" />
+     <Compile Include="Library\PackageCache\com.unity.ide.visualstudio@2.0.16\Editor\Testing\TestAdaptor.cs" />
      <None Include="Library\PackageCache\com.unity.ide.visualstudio@2.0.16\Editor\com.unity.ide.visualstudio.asmdef" />
      <Reference Include="UnityEngine">
      <HintPath>D:\UnityEditor\2020.3.40f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
@@ -319,7 +319,7 @@
      <HintPath>D:\UnityEditor\2020.3.40f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
      </Reference>
      <Reference Include="nunit.framework">
-     <HintPath>F:\work\Unity\Element Universe\Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
+     <HintPath>F:\work\Unity\ElementalUniverse\Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
      </Reference>
      <Reference Include="mscorlib">
      <HintPath>D:\UnityEditor\2020.3.40f1c1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\mscorlib.dll</HintPath>
@@ -672,19 +672,19 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{3b1ab47a-649b-d1c6-14ba-6b50d9758e00}</Project>
+      <Project>{16fff7f0-1de9-2b3d-bc48-58e836948cc5}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{32c04240-48ca-eb03-8dc9-7b2e97c76567}</Project>
+      <Project>{d6cbad6b-9d85-fc1a-923a-1804c4c8d3c8}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{5ea7e6ba-f79e-5562-bd10-dda59ee82ef7}</Project>
+      <Project>{8a63d741-4476-e455-c2be-97ed3e4c1120}</Project>
       <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{a09392b7-90cc-208a-9aac-7ea79563a956}</Project>
+      <Project>{71c4fc15-a8f7-3ed2-c859-eabad0c5430b}</Project>
       <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>
