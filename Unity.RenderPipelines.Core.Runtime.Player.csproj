@@ -12,7 +12,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{68e4fbec-0856-d745-9ab5-f1469d697e06}</ProjectGuid>
+    <ProjectGuid>{46607057-f986-6668-d985-d7c4b3e8ee40}</ProjectGuid>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -89,8 +89,8 @@
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@10.10.0\Runtime\RenderGraph\RenderGraphBuilder.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@10.10.0\Runtime\Debugging\DebugManager.Actions.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@10.10.0\Runtime\Volume\VolumeStack.cs" />
-     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@10.10.0\Runtime\Debugging\Prefabs\Scripts\DebugUIHandlerCanvas.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@10.10.0\Runtime\Debugging\DebugUpdater.cs" />
+     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@10.10.0\Runtime\Debugging\Prefabs\Scripts\DebugUIHandlerCanvas.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@10.10.0\Runtime\RenderGraph\RenderGraphDefaultResources.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@10.10.0\Runtime\Common\IVirtualTexturingEnabledRenderPipeline.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@10.10.0\Runtime\Debugging\Prefabs\Scripts\DebugUIHandlerColor.cs" />
@@ -135,8 +135,8 @@
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@10.10.0\Runtime\Common\GlobalDynamicResolutionSettings.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@10.10.0\Runtime\Debugging\DebugShapes.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@10.10.0\Runtime\RenderGraph\RenderGraphResourceRegistry.cs" />
-     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@10.10.0\Runtime\Utilities\HableCurve.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@10.10.0\Runtime\RenderGraph\RenderGraphLogger.cs" />
+     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@10.10.0\Runtime\Utilities\HableCurve.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@10.10.0\Runtime\Debugging\ProfilingScope.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@10.10.0\Runtime\Debugging\DebugUI.Fields.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@10.10.0\Runtime\Common\ObjectPools.cs" />
@@ -346,7 +346,7 @@
      <HintPath>D:\UnityEditor\2020.3.40f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.XRModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.UI">
-     <HintPath>F:\work\Unity\Element Universe\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+     <HintPath>F:\work\Unity\ElementalUniverse\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
      </Reference>
      <Reference Include="mscorlib">
      <HintPath>D:\UnityEditor\2020.3.40f1c1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\mscorlib.dll</HintPath>
@@ -699,7 +699,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UnityEngine.UI.Player.csproj">
-      <Project>{e8010700-97bb-835d-be9b-6c4a7d273a37}</Project>
+      <Project>{19bc3df2-4b50-a2a0-3583-939d0958278a}</Project>
       <Name>UnityEngine.UI.Player</Name>
     </ProjectReference>
   </ItemGroup>

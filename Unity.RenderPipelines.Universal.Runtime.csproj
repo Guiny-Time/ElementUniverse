@@ -12,7 +12,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{98102911-952f-d577-4e1b-60d62804423c}</ProjectGuid>
+    <ProjectGuid>{d9e3a024-167b-ed31-09b5-b1ab6eb0fbdb}</ProjectGuid>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -43,12 +43,12 @@
   <ItemGroup>
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.0\Runtime\2D\Shadows\ShadowUtility.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.0\Runtime\XR\XRLayout.cs" />
-     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.0\Runtime\ScriptableRenderer.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.0\Runtime\Overrides\Tonemapping.cs" />
+     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.0\Runtime\ScriptableRenderer.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.0\Runtime\2D\Passes\Utility\Light2DLookupTexture.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.0\Runtime\2D\Light2D.cs" />
-     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.0\Runtime\RendererFeatures\ScreenSpaceAmbientOcclusion.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.0\Runtime\Passes\DeferredPass.cs" />
+     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.0\Runtime\RendererFeatures\ScreenSpaceAmbientOcclusion.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.0\Runtime\Overrides\DepthOfField.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.0\Runtime\DeferredTiler.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.0\Runtime\UniversalRenderPipelineCore.cs" />
@@ -59,16 +59,16 @@
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.0\Runtime\Overrides\WhiteBalance.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.0\Runtime\DeferredLights.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.0\Runtime\2D\Passes\PixelPerfectBackgroundPass.cs" />
+     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.0\Runtime\2D\Passes\IRenderPass2D.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.0\Runtime\RendererFeatures\RenderObjects.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.0\Runtime\Passes\XROcclusionMeshPass.cs" />
-     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.0\Runtime\2D\Passes\IRenderPass2D.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.0\Runtime\Overrides\ColorCurves.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.0\Runtime\2D\Light2DPoint.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.0\Runtime\External\LibTessDotNet\PriorityQueue.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.0\Runtime\ForwardLights.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.0\Runtime\2D\Light2DManager.cs" />
-     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.0\Runtime\2D\Passes\Utility\RendererLighting.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.0\Runtime\Passes\CapturePass.cs" />
+     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.0\Runtime\2D\Passes\Utility\RendererLighting.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.0\Runtime\DeferredShaderData.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.0\Runtime\2D\PixelPerfectCamera.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.0\Runtime\Overrides\SplitToning.cs" />
@@ -130,8 +130,8 @@
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.0\Runtime\Overrides\MotionBlur.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.0\Runtime\ShaderUtils.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.0\Runtime\Overrides\Bloom.cs" />
-     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.0\Runtime\Overrides\ChromaticAberration.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.0\Runtime\Overrides\PaniniProjection.cs" />
+     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.0\Runtime\Overrides\ChromaticAberration.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.0\Runtime\External\LibTessDotNet\Geom.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.0\Runtime\Deprecated.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.0\Runtime\Overrides\LensDistortion.cs" />
@@ -147,8 +147,8 @@
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.0\Runtime\Overrides\Vignette.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.0\Runtime\Data\UniversalRenderPipelineEditorResources.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.0\Runtime\Passes\SceneViewDepthCopy.cs" />
-     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.0\Runtime\XR\XRSystem.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.0\Runtime\2D\Renderer2D.cs" />
+     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.0\Runtime\XR\XRSystem.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.0\Runtime\PostProcessUtils.cs" />
      <None Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.0\Runtime\Unity.RenderPipelines.Universal.Runtime.asmdef" />
      <None Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.0\Runtime\External\LibTessDotNet\LICENSE.txt" />
@@ -390,19 +390,19 @@
      <HintPath>D:\UnityEditor\2020.3.40f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Plastic.Newtonsoft.Json">
-     <HintPath>F:\work\Unity\Element Universe\Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+     <HintPath>F:\work\Unity\ElementalUniverse\Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Plastic.Antlr3.Runtime">
-     <HintPath>F:\work\Unity\Element Universe\Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+     <HintPath>F:\work\Unity\ElementalUniverse\Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
      </Reference>
      <Reference Include="log4netPlastic">
-     <HintPath>F:\work\Unity\Element Universe\Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
-     </Reference>
-     <Reference Include="ICSharpCode.NRefactory">
-     <HintPath>F:\work\Unity\Element Universe\Library\PackageCache\com.unity.render-pipelines.core@10.10.0\Editor\ShaderGenerator\ICSharpCode.NRefactory.dll</HintPath>
+     <HintPath>F:\work\Unity\ElementalUniverse\Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
      </Reference>
      <Reference Include="unityplastic">
-     <HintPath>F:\work\Unity\Element Universe\Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
+     <HintPath>F:\work\Unity\ElementalUniverse\Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
+     </Reference>
+     <Reference Include="ICSharpCode.NRefactory">
+     <HintPath>F:\work\Unity\ElementalUniverse\Library\PackageCache\com.unity.render-pipelines.core@10.10.0\Editor\ShaderGenerator\ICSharpCode.NRefactory.dll</HintPath>
      </Reference>
      <Reference Include="mscorlib">
      <HintPath>D:\UnityEditor\2020.3.40f1c1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\mscorlib.dll</HintPath>
@@ -755,23 +755,23 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.RenderPipelines.Core.Runtime.csproj">
-      <Project>{95bfa245-fdbf-2163-8ecf-7b1acd4b505e}</Project>
+      <Project>{f3c9e26d-865b-d862-07ad-62c15b4686e4}</Project>
       <Name>Unity.RenderPipelines.Core.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.RenderPipeline.Universal.ShaderLibrary.csproj">
-      <Project>{b848b913-2185-f249-fbbe-ba93338794ea}</Project>
+      <Project>{d2159fe5-2f4e-e5ba-85e8-0e51abe9fa25}</Project>
       <Name>Unity.RenderPipeline.Universal.ShaderLibrary</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Mathematics.csproj">
-      <Project>{064115c7-531c-b5f5-a485-ae9043ceedf0}</Project>
+      <Project>{8a89ce03-f7dc-d199-1096-0254f136a198}</Project>
       <Name>Unity.Mathematics</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{3b1ab47a-649b-d1c6-14ba-6b50d9758e00}</Project>
+      <Project>{16fff7f0-1de9-2b3d-bc48-58e836948cc5}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{32c04240-48ca-eb03-8dc9-7b2e97c76567}</Project>
+      <Project>{d6cbad6b-9d85-fc1a-923a-1804c4c8d3c8}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
   </ItemGroup>

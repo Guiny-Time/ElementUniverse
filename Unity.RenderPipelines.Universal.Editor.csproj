@@ -12,7 +12,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{dc889d9f-ff45-5bf2-e52b-bfcfc27d8258}</ProjectGuid>
+    <ProjectGuid>{273958e8-0a20-dea2-f0e3-23426ff22c0e}</ProjectGuid>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -45,8 +45,8 @@
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.0\Editor\RendererFeatures\ScreenSpaceAmbientOcclusionEditor.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.0\Editor\2D\ShapeEditor\GUIFramework\Control.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.0\Editor\ShaderGraph\Targets\UniversalUnlitSubTarget.cs" />
-     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.0\Editor\ShaderGUI\Shaders\UnlitShader.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.0\Editor\ShaderGUI\Shaders\ParticlesSimpleLitShader.cs" />
+     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.0\Editor\ShaderGUI\Shaders\UnlitShader.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.0\Editor\2D\CompositeShadowCaster2DEditor.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.0\Editor\UniversalAdditionalCameraDataEditor.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.0\Editor\UniversalRenderPipelineCameraEditor.cs" />
@@ -67,18 +67,18 @@
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.0\Editor\2D\ShapeEditor\Selection\ISelectable.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.0\Editor\EditorUtils.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.0\Editor\2D\ShapeEditor\EditablePath\EditablePathExtensions.cs" />
-     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.0\Editor\Overrides\ColorLookupEditor.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.0\Editor\Overrides\DepthOfFieldEditor.cs" />
+     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.0\Editor\Overrides\ColorLookupEditor.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.0\Editor\RendererFeatures\NewRendererFeatureDropdownItem.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.0\Editor\2D\ShadowCaster2DShapeTool.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.0\Editor\ShaderGUI\ShadingModels\SimpleLitGUI.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.0\Editor\UniversalRenderPipelineAssetEditor.cs" />
-     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.0\Editor\2D\ShapeEditor\Selection\ISelection.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.0\Editor\Overrides\ShadowsMidtonesHighlightsEditor.cs" />
+     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.0\Editor\2D\ShapeEditor\Selection\ISelection.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.0\Editor\2D\ShapeEditor\Shapes\Spline.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.0\Editor\ShaderGraph\AssetCallbacks\CreateSpriteLitShaderGraph.cs" />
-     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.0\Editor\2D\SortingLayerDropDown.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.0\Editor\UniversalRenderPipelineMaterialUpgrader.cs" />
+     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.0\Editor\2D\SortingLayerDropDown.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.0\Editor\2D\ShapeEditor\EditorTool\GenericScriptablePath.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.0\Editor\ScriptableRendererFeatureEditor.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.0\Editor\2D\ShapeEditor\GUIFramework\GUIAction.cs" />
@@ -130,9 +130,9 @@
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.0\Editor\AssetVersion.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.0\Editor\TrackballUIDrawer.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.0\Editor\2D\ShapeEditor\EditablePath\Snapping.cs" />
+     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.0\Editor\2D\ShapeEditor\Selection\PointRectSelector.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.0\Editor\AssetPostProcessors\ThreeDSMaterialDescriptionPostprocessor.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.0\Editor\ShaderGraph\Targets\UniversalSpriteLitSubTarget.cs" />
-     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.0\Editor\2D\ShapeEditor\Selection\PointRectSelector.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.0\Editor\AssetPostProcessors\MaterialPostprocessor.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.0\Editor\Shadow\ShadowCascadeSplitGUI.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.0\Editor\2D\ShapeEditor\EditablePath\EditablePath.cs" />
@@ -430,22 +430,22 @@
      <HintPath>D:\UnityEditor\2020.3.40f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Plastic.Newtonsoft.Json">
-     <HintPath>F:\work\Unity\Element Universe\Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+     <HintPath>F:\work\Unity\ElementalUniverse\Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Plastic.Antlr3.Runtime">
-     <HintPath>F:\work\Unity\Element Universe\Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+     <HintPath>F:\work\Unity\ElementalUniverse\Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
      </Reference>
      <Reference Include="log4netPlastic">
-     <HintPath>F:\work\Unity\Element Universe\Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
-     </Reference>
-     <Reference Include="ICSharpCode.NRefactory">
-     <HintPath>F:\work\Unity\Element Universe\Library\PackageCache\com.unity.render-pipelines.core@10.10.0\Editor\ShaderGenerator\ICSharpCode.NRefactory.dll</HintPath>
+     <HintPath>F:\work\Unity\ElementalUniverse\Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
      </Reference>
      <Reference Include="unityplastic">
-     <HintPath>F:\work\Unity\Element Universe\Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
+     <HintPath>F:\work\Unity\ElementalUniverse\Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
+     </Reference>
+     <Reference Include="ICSharpCode.NRefactory">
+     <HintPath>F:\work\Unity\ElementalUniverse\Library\PackageCache\com.unity.render-pipelines.core@10.10.0\Editor\ShaderGenerator\ICSharpCode.NRefactory.dll</HintPath>
      </Reference>
      <Reference Include="nunit.framework">
-     <HintPath>F:\work\Unity\Element Universe\Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
+     <HintPath>F:\work\Unity\ElementalUniverse\Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
      </Reference>
      <Reference Include="mscorlib">
      <HintPath>D:\UnityEditor\2020.3.40f1c1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\mscorlib.dll</HintPath>
@@ -798,39 +798,39 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.RenderPipelines.Universal.Runtime.csproj">
-      <Project>{98102911-952f-d577-4e1b-60d62804423c}</Project>
+      <Project>{d9e3a024-167b-ed31-09b5-b1ab6eb0fbdb}</Project>
       <Name>Unity.RenderPipelines.Universal.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.Core.Runtime.csproj">
-      <Project>{95bfa245-fdbf-2163-8ecf-7b1acd4b505e}</Project>
+      <Project>{f3c9e26d-865b-d862-07ad-62c15b4686e4}</Project>
       <Name>Unity.RenderPipelines.Core.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.Core.Editor.csproj">
-      <Project>{8f2c37e5-0e87-e56f-1a0f-5813f5621891}</Project>
+      <Project>{1f6871b0-bde5-06f4-ba22-8a698a8ffe72}</Project>
       <Name>Unity.RenderPipelines.Core.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.ShaderGraph.Editor.csproj">
-      <Project>{bf69a648-3f98-b1ad-6fc3-032eb83b174a}</Project>
+      <Project>{24c9de59-5a97-133c-d019-aa2798887912}</Project>
       <Name>Unity.ShaderGraph.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Mathematics.Editor.csproj">
-      <Project>{b1d0f9a6-6a10-f0cf-5938-c0e4426d9533}</Project>
+      <Project>{b4f10438-9422-d7c7-b95c-3e308241b8f2}</Project>
       <Name>Unity.Mathematics.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{3b1ab47a-649b-d1c6-14ba-6b50d9758e00}</Project>
+      <Project>{16fff7f0-1de9-2b3d-bc48-58e836948cc5}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{32c04240-48ca-eb03-8dc9-7b2e97c76567}</Project>
+      <Project>{d6cbad6b-9d85-fc1a-923a-1804c4c8d3c8}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{5ea7e6ba-f79e-5562-bd10-dda59ee82ef7}</Project>
+      <Project>{8a63d741-4476-e455-c2be-97ed3e4c1120}</Project>
       <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{a09392b7-90cc-208a-9aac-7ea79563a956}</Project>
+      <Project>{71c4fc15-a8f7-3ed2-c859-eabad0c5430b}</Project>
       <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>
