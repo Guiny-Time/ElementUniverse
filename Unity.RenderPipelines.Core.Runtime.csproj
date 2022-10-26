@@ -89,8 +89,8 @@
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@10.10.0\Runtime\RenderGraph\RenderGraphBuilder.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@10.10.0\Runtime\Debugging\DebugManager.Actions.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@10.10.0\Runtime\Volume\VolumeStack.cs" />
-     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@10.10.0\Runtime\Debugging\DebugUpdater.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@10.10.0\Runtime\Debugging\Prefabs\Scripts\DebugUIHandlerCanvas.cs" />
+     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@10.10.0\Runtime\Debugging\DebugUpdater.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@10.10.0\Runtime\RenderGraph\RenderGraphDefaultResources.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@10.10.0\Runtime\Common\IVirtualTexturingEnabledRenderPipeline.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@10.10.0\Runtime\Debugging\Prefabs\Scripts\DebugUIHandlerColor.cs" />
@@ -135,8 +135,8 @@
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@10.10.0\Runtime\Common\GlobalDynamicResolutionSettings.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@10.10.0\Runtime\Debugging\DebugShapes.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@10.10.0\Runtime\RenderGraph\RenderGraphResourceRegistry.cs" />
-     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@10.10.0\Runtime\RenderGraph\RenderGraphLogger.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@10.10.0\Runtime\Utilities\HableCurve.cs" />
+     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@10.10.0\Runtime\RenderGraph\RenderGraphLogger.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@10.10.0\Runtime\Debugging\ProfilingScope.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@10.10.0\Runtime\Debugging\DebugUI.Fields.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@10.10.0\Runtime\Common\ObjectPools.cs" />
@@ -387,11 +387,11 @@
      <Reference Include="log4netPlastic">
      <HintPath>F:\work\Unity\ElementalUniverse\Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
      </Reference>
-     <Reference Include="unityplastic">
-     <HintPath>F:\work\Unity\ElementalUniverse\Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
-     </Reference>
      <Reference Include="ICSharpCode.NRefactory">
      <HintPath>F:\work\Unity\ElementalUniverse\Library\PackageCache\com.unity.render-pipelines.core@10.10.0\Editor\ShaderGenerator\ICSharpCode.NRefactory.dll</HintPath>
+     </Reference>
+     <Reference Include="unityplastic">
+     <HintPath>F:\work\Unity\ElementalUniverse\Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
      </Reference>
      <Reference Include="mscorlib">
      <HintPath>D:\UnityEditor\2020.3.40f1c1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\mscorlib.dll</HintPath>
